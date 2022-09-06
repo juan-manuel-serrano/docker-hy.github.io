@@ -20,7 +20,7 @@ const Page = styled.li`
   margin: 0.5rem;
   padding: 1em;
   list-style-type: none;
-  color: black;
+  color: blue;
   text-decoration: none;
   border-radius: 10px;
 
@@ -61,6 +61,7 @@ const Title = styled.div`
 const StyledPaper = styled(Paper)`
   padding: 1em;
   margin-bottom: 2em;
+  background-color: #fdf6e3 !important;
 `;
 
 const PagesInThisSection = ({ style, t }) => (

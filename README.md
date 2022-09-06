@@ -1,3 +1,13 @@
+# 3.1 Deployment pipeline to Heroku
+
+This is exercise 3.1 of the DevOps with Docker course.
+
+Using the course material (with modifications), create a deployment pipeline to Heroku.
+
+When a new commit is pushed to GitHub, have GitHub Actions deploy a webapp to Heroku.
+
+The rest of the content on here is the same as the course, which can be found at https://devopswithdocker.com
+
 # [Course material](https://docker-hy.github.io)
 
 If you have any questions, send an email to jami.kousa@helsinki.fi or send a message through the course Discord group.

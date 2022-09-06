@@ -4,7 +4,8 @@ import withSimpleErrorBoundary from "../util/withSimpleErrorBoundary";
 
 const ContentAreaContainer = styled.main`
   padding: 0 0.5rem;
-  background-color: #fcfcfc;
+  background-color: #eee8d5;
+  color: #002b36;
   margin-bottom: 5rem;
   min-height: 80vh;
   font-size: 1rem;

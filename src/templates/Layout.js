@@ -3,7 +3,6 @@ import "../i18n";
 import Helmet from "react-helmet";
 import Sidebar from "../components/Sidebar";
 import ContentArea from "../components/ContentArea";
-import TopBar from "../components/TopBar";
 import { StaticQuery, graphql } from "gatsby";
 // import Pheromones from "../util/pheromones"
 import styled from "styled-components";
@@ -133,7 +132,6 @@ class Layout extends React.Component {
                   toggleMobileMenu={this.toggleMobileMenu}
                 />
                 <SidebarPush>
-                  <TopBar />
                   <ContentArea mobileMenuOpen={this.state.mobileMenuOpen}>
                     {children}
                   </ContentArea>

@@ -6,7 +6,7 @@ import BannerImage from "../../banner.svg";
 import withSimpleErrorBoundary from "../util/withSimpleErrorBoundary";
 
 const BannerWrapper = styled.header`
-  height: 30rem;
+  height: 15rem;
   max-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -28,9 +28,10 @@ const Heading = styled.div`
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   font-size: 2rem;
-  color: #c0392b;
-  background: white;
-  padding: 0.5rem;
+  color: #dc322f;
+  background: #fdf6e3;
+  border-radius: 2rem;
+  padding: 0.5rem 0.75rem;
   margin: 1rem;
   text-align: center;
   @media only screen and (min-width: 720px) {
@@ -43,9 +44,10 @@ const SubHeading = styled.div`
       Roboto, 'Helvetica Neue', Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
       'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 500;
-    color: #c0392b;
-    background: white;
-    padding .5rem;
+    color: #dc322f;
+    background: #fdf6e3;
+    border-radius: 2rem;
+    padding: 0.5rem 0.75rem;
     font-size: 1.4rem;
     margin: 0 1rem;
 `;

@@ -5,7 +5,7 @@ import "typeface-open-sans-condensed";
 import withSimpleErrorBoundary from "../util/withSimpleErrorBoundary";
 
 const LogoImg = styled.img`
-  width: 3.4em;
+  width: 9.3em;
   height: 3.4em;
   margin-right: 0.5em;
   margin-bottom: 0;
@@ -20,12 +20,12 @@ const LogoTypography = styled.div`
 const StyledLink = styled.a`
   text-decoration: none;
   color: black;
+  background-color: #fdf6e3;
   display: flex;
   align-items: center;
   padding: 1em;
   padding-right: 1.7em;
   height: 64px;
-  background-color: white;
 
   :hover {
     text-decoration: none;
@@ -36,9 +36,6 @@ const StyledLink = styled.a`
 const Logo = () => (
   <StyledLink href="https://mooc.fi">
     <LogoImg src={logo} />
-    <LogoTypography variant="title" color="inherit">
-      MOOC.fi
-    </LogoTypography>
   </StyledLink>
 );
 

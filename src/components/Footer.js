@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import BackgroundImage from "../images/banner.svg";
+import BackgroundImage from "../../banner.svg";
 import { Card, CardContent } from "@material-ui/core";
 import { OutboundLink } from "gatsby-plugin-google-analytics";
 import { Link } from "gatsby";
@@ -46,7 +46,7 @@ const ButtonContainer = styled.div`
 `;
 
 const FooterWrapper = styled.footer`
-  height: 35rem;
+  height: 25rem;
   position: relative;
   a {
     color: #006fe6;
@@ -62,7 +62,7 @@ const FooterBackground = styled.div`
   width: 100%;
   height: 100%;
   background-image: url(${BackgroundImage});
-  filter: invert(1) grayscale(1) brightness(1.5) opacity(0.5);
+  filter: invert(1) grayscale(1) brightness(1.5) opacity(0.75);
   z-index: -50000;
 `;
 
@@ -77,6 +77,7 @@ const FooterContent = styled.div`
 const StyledCard = styled(Card)`
   width: 90%;
   max-width: 800px;
+  background-color: #eee8d5;
 `;
 
 const StyledCardContent = styled(CardContent)`
@@ -84,6 +85,7 @@ const StyledCardContent = styled(CardContent)`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #eee8d5;
 `;
 
 const BrandsContainer = styled.div`

@@ -29,7 +29,7 @@ const StyledIcon = styled(FontAwesomeIcon)`
 const SidebarContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #fdf6e3;
 
   ${(props) =>
     !props.mobileMenuOpen &&
@@ -43,7 +43,7 @@ const SidebarContainer = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #fdf6e3;
     z-index: 100;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
@@ -62,7 +62,7 @@ const SidebarContainer = styled.div`
 `;
 const LogoContainer = styled.div`
   display: flex;
-  background-color: white;
+  background-color: #fdf6e3;
   justify-content: space-around;
   align-content: center;
   align-items: center;
@@ -70,17 +70,18 @@ const LogoContainer = styled.div`
 
 const TreeViewContainer = styled.nav`
   flex: 1;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  color: #586e75;
+  font-size: 1.1em;
 `;
 
 const Brand = styled.div`
   width: 100%;
   text-align: center;
-  padding: 1em;
-  padding-top: 2em;
+  padding: 0.5em;
   font-weight: bold;
-  color: #c0392b;
-  font-size: 1.15em;
+  color: #dc322f;
+  font-size: 1.4em;
 `;
 
 const MenuExpanderWrapper = styled.div`
@@ -103,7 +104,7 @@ const MobileWrapper = styled.div`
     left: 0;
     z-index: 999999999;
     overflow-y: scroll;
-    background-color: white;
+    background-color: #fdf6e3;
   }
 `;
 
@@ -175,12 +176,12 @@ const Sidebar = (props) => {
           {props.mobileMenuOpen ? (
             <span>
               <StyledIcon icon={faTimes} />
-              Sulje valikko
+              Close menu
             </span>
           ) : (
             <span>
               <StyledIcon icon={faBars} />
-              Avaa valikko
+              Open menu
             </span>
           )}
         </Button>

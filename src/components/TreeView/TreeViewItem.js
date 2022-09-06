@@ -35,9 +35,9 @@ const ListItemLabel = styled.div`
 `;
 
 const NavigationLink = styled(GatsbyLink)`
-  border-left: 0.5em solid white;
+  border-left: 0.5em solid #fdf6e3;
   width: 100%;
-  background-color: white;
+  background-color: #fdf6e3;
   ${(props) =>
     props.active === "t" &&
     `
@@ -47,8 +47,8 @@ const NavigationLink = styled(GatsbyLink)`
   :hover {
     text-decoration: none;
     color: black;
-    background-color: #f5ebeb;
-    border-color: #f5ebeb;
+    background-color: #eee8d5;
+    border-color: #eee8d5;
     //filter: brightness(0.5);
   }
 `;
@@ -64,7 +64,7 @@ const DisabledItemWithLink = styled(GatsbyLink)`
   opacity: 0.5;
   width: 100%;
   border-left: 0.5em solid white;
-  background-color: white;
+  background-color: #fdf6e3;
   ${(props) =>
     props.active === "t" &&
     `

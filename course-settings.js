@@ -1,9 +1,9 @@
 const courseSettings = {
   language: "en",
-  name: "DevOps with Docker",
+  name: "3.1 Deploy web app to Heroku",
   siteUrl: "https://devopswithdocker.com",
   githubUrl: "https://github.com/docker-hy/docker-hy.github.io",
-  subtitle: "Containers for Beginners",
+  subtitle: "GitHub, GitHub Actions and Heroku",
   slug: "docker-21",
   organizationName: "MOOC",
   tmcCourse: "docker-21",
